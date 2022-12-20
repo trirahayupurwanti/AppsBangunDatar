@@ -11,7 +11,6 @@ package com.mycompany.com.appsbangundatar;
  */
 public abstract class BangunDatar {
    
-    
     private String namaBangunDatar;
 
     public String getNamaBangunDatar() {
@@ -22,6 +21,9 @@ public abstract class BangunDatar {
         this.namaBangunDatar = namaBangunDatar;
     }
     
+    // method untuk menghitung bangun datar
     abstract  double luas();
+    
+    // method untuk menghitung bangun datar
     abstract  double keliling();
     }
