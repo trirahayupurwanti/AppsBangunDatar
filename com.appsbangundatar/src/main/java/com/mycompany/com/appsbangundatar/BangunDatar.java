@@ -9,9 +9,19 @@ package com.mycompany.com.appsbangundatar;
  *
  * @author Tri Rahayu Purwanti
  */
-public class BangunDatar {
+public abstract class BangunDatar {
+   
+    
+    private String namaBangunDatar;
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    public String getNamaBangunDatar() {
+        return namaBangunDatar;
     }
-}
+
+    public void setNamaBangunDatar(String namaBangunDatar) {
+        this.namaBangunDatar = namaBangunDatar;
+    }
+    
+    abstract  double luas();
+    abstract  double keliling();
+    }
